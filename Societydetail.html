@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>社团详细页|华南理工大学广州学院组织社团服务平台系统</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/mycss/activity.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <script src="js/jquery/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap/bootstrap.js"></script>
+    <script src="js/popper/popper.js"></script>
+    <script src="js/holder/holder.js"></script>
+  	<script src="js/myjs/home.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body>
+<header id="header">
+
+</header>
+
+<main role="main">
+    <!--搜索框  -->
+    <div class="searchCompany">
+        <div class="input-group mb-3 input-group-lg container mysearch">
+            <!-- <h1>华广计算机工程学院团委学生会</h1> -->
+            <input type="text" class="form-control " placeholder="请输入搜索内容" aria-label="Recipient's username" aria-describedby="basic-addon2"> 
+             <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">搜索</button>
+                
+            </div>
+        </div>           
+    </div>
+
+    <!-- 内容区 -->
+    <div class="container marketing">
+        <h2 class="filter">筛选条件</h2>
+        <form>
+            <div class="row">
+                <div class="col-lg-12 ">
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text" id="btnGroupAddon">活动类型:</div>
+                            </div>
+                            <select class="form-control" id="sel1">
+                                <option selected>请选择......</option>
+                                <option>学术</option>
+                                <option>演讲</option>
+                                <option>文体</option>
+                            </select>
+                            <br>
+                        </div>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text" id="btnGroupAddon">社团类型:</div>
+                            </div>
+                            <select class="form-control" id="sel1">
+                                <option selected>请选择......</option>
+                                <option>学校组织</option>
+                                <option>院级团委、学生会</option>
+                                <option>社团联合会</option>
+                            </select>
+                            <br>
+                        </div>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text" id="btnGroupAddon">选择社团:</div>
+                            </div>
+                            <select class="form-control" id="sel1">
+                                <option selected>请选择......</option>
+                                <option>组织部</option>
+                                <option>秘书部</option>
+                                <option>文体部</option>
+                            </select>
+                            <br>
+                        </div>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text" id="btnGroupAddon">活动时间:</div>
+                            </div>
+                            <input type="date" class="form-control" id="time">
+                            <br>
+                        </div>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text" id="btnGroupAddon">活动地点:</div>
+                            </div>
+                            <input type="text" class="form-control" id="address">
+                            <br>
+                        </div>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+        </form>
+        <!-- <hr class="featurette-divider"> -->
+
+        <!--部门展示墙 -->
+        <!-- <div>
+            <h2 class="container text-center" style="margin-bottom:30px;" >社团活动展示</h2>
+        </div> -->
+        <h2 class="filter">社团活动展示</h2>
+        <div class="row featurette ">
+            <div class="col-md-8 order-md-2 card  order-md-2">
+                <div><label class="text-success">活动标题：</label><span>PS设计大赛</span></div>
+                <div><label class="text-success">活动时间：</label><span>2018-10-26</span></div>
+                <div><label class="text-success">活动地点：</label><span>图书馆报告厅</span></div>                
+                <div><label class="text-success">主办方：</label><span>计算机团委学生会</span></div>
+                <div><label class="text-success">活动类型：</label><span>学术</span></div>
+                <div><label class="text-success">发布日期:</label><span>2018-10-26</span></div>
+                <div>
+                    <label class="text-success">报名人数：</label><span>100</span>
+                    <label class="text-success">关注人数：</label><span>100</span>
+                </div>
+                <div><label class="text-success">活动简介:</label><span>各班级想要参加的同学们先到各班的文体委员处报名</span></div>
+                <div class="btn-group two">
+                    <button type="button" class="btn btn-success ">报名</button>
+                    <button type="button" class="btn btn-danger">关注</button>
+                </div>
+    
+            </div>
+            <div class="col-md-4 order-md-1">
+                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/300x300/auto" alt="Generic placeholder image">
+            </div>
+        </div>
+    
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2 order-md-1">
+                <div><label class="text-success">活动标题：</label><span>PS设计大赛</span></div>
+                <div><label class="text-success">活动时间：</label><span>2018-10-26</span></div>
+                <div><label class="text-success">活动地点：</label><span>图书馆报告厅</span></div>                
+                <div><label class="text-success">主办方：</label><span>计算机团委学生会</span></div>
+                <div><label class="text-success">活动类型：</label><span>学术</span></div>
+                <div><label class="text-success">发布日期:</label><span>2018-10-26</span></div>
+                <div>
+                    <label class="text-success">报名人数：</label><span>100</span>
+                    <label class="text-success">关注人数：</label><span>100</span>
+                </div>
+                <div><label class="text-success">活动简介:</label><span>各班级想要参加的同学们先到各班的文体委员处报名</span></div>
+                <div class="btn-group two">
+                    <button type="button" class="btn btn-success ">报名</button>
+                    <button type="button" class="btn btn-danger">关注</button>
+                </div>
+            </div>
+            <div class="col-md-5  order-md-2">
+                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/300x300/auto" alt="Generic placeholder image">
+            </div>
+        </div>
+    
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <div><label class="text-success">活动标题：</label><span>PS设计大赛</span></div>
+                <div><label class="text-success">活动时间：</label><span>2018-10-26</span></div>
+                <div><label class="text-success">活动地点：</label><span>图书馆报告厅</span></div>                
+                <div><label class="text-success">主办方：</label><span>计算机团委学生会</span></div>
+                <div><label class="text-success">活动类型：</label><span>学术</span></div>
+                <div><label class="text-success">发布日期:</label><span>2018-10-26</span></div>
+                <div>
+                    <label class="text-success">报名人数：</label><span>100</span>
+                    <label class="text-success">关注人数：</label><span>100</span>
+                </div>
+                <div><label class="text-success">活动简介:</label><span>各班级想要参加的同学们先到各班的文体委员处报名</span></div>
+                <div class="btn-group two">
+                    <button type="button" class="btn btn-success ">报名</button>
+                    <button type="button" class="btn btn-danger">关注</button>
+                </div>
+    
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/300x300/auto" alt="Generic placeholder image">
+            </div>
+        </div>
+        <!-- <hr class="featurette-divider"> -->
+       
+
+
+
+        
+        <!-- 分页-->
+        <div class="row featurette">
+            <div class="col-md-12 ">
+                <ul class="pagination one">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item"><a class="page-link" href="#">...</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr class="featurette-divider">
+        <!-- 人员组成 -->
+        <h2 class="filter">人员组成</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="img/society/society01.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2>正部长</h2>
+                <p>联系方式:<span>1111111111</span></p>
+                <p><a class="btn btn-secondary" href="#" role="button">更多 &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="img/society/society04.bmp" alt="Generic placeholder image" width="140" height="140">
+                <h2>部长</h2>
+                <p>联系方式:<span>1111111111</span></p>
+                <p><a class="btn btn-secondary" href="#" role="button">更多 &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="img/society/society03.bmp" alt="Generic placeholder image" width="140" height="140">
+                <h2>部长</h2>
+                <p>联系方式:<span>1111111111</span></p>
+                <p><a class="btn btn-secondary" href="#" role="button">更多 &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+        <hr class="featurette-divider">
+
+
+        <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container-内容区 -->
+
+    <!-- FOOTER -->
+    <footer id="footer" class="container">
+       
+    </footer>
+</main>
+</body>
+</html>
